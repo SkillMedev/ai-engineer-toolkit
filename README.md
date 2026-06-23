@@ -1,8 +1,8 @@
 # AI Engineer Toolkit
 
-**Ship LLM features that work — prompts, evals, agents, and MCP servers.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**When an AI feature has to survive production, not just demo: prompts, evals, agents, MCP.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
 
-The modern AI engineer's toolkit. Design prompts that hold up, build MCP servers, evaluate LLM output rigorously, orchestrate multi-step agents, run deep research, engineer ML features, and handle errors gracefully.
+Reach for this when you're putting an AI feature into production, not just prototyping one. It carries you through the real build loop: write prompts that hold up under edge cases, prove they work with rigorous evals before you ship, orchestrate multi-step agents when one call isn't enough, and expose your own tools as MCP servers Claude can call. It also covers the surrounding engineering work — deep multi-source research, sound ML feature design, and recoverable, observable error handling — so the system holds together end to end. The outcome is an AI feature you can defend in code review and trust in front of users.
 
 ⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
