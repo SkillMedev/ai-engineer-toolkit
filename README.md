@@ -9,7 +9,7 @@ Reach for this when you're putting an AI feature into production, not just proto
 ## Install
 
 - **From the catalog:** [skillme.dev/pack/ai-engineer-toolkit](https://skillme.dev/pack/ai-engineer-toolkit) — install the whole pack into Claude in one step.
-- **With the skills CLI:** `npx skills add aouellets/ai-engineer-toolkit`
+- **With the skills CLI:** `npx skills add SkillMedev/ai-engineer-toolkit`
 - **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
 
 ## Skills in this pack
