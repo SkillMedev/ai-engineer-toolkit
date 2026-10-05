@@ -1,16 +1,17 @@
 # AI Engineer Toolkit
 
-**When an AI feature has to survive production, not just demo: prompts, evals, agents, MCP.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**When an AI feature has to survive production, not just demo: prompts, evals, agents, MCP.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-ai-engineer-toolkit).
 
 Reach for this when you're putting an AI feature into production, not just prototyping one. It carries you through the real build loop: write prompts that hold up under edge cases, prove they work with rigorous evals before you ship, orchestrate multi-step agents when one call isn't enough, and expose your own tools as MCP servers Claude can call. It also covers the surrounding engineering work - deep multi-source research, sound ML feature design, and recoverable, observable error handling - so the system holds together end to end. The outcome is an AI feature you can defend in code review and trust in front of users.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/ai-engineer-toolkit](https://skillme.dev/pack/ai-engineer-toolkit) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/ai-engineer-toolkit?utm_source=github&utm_medium=readme&utm_campaign=pack-ai-engineer-toolkit) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add prompt-engineer llm-evaluation agent-orchestration deep-research ml-feature-engineering error-handling --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/ai-engineer-toolkit`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -25,4 +26,4 @@ Reach for this when you're putting an AI feature into production, not just proto
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-ai-engineer-toolkit).
